@@ -10,10 +10,10 @@ class AccountMain
 		System.out.println("\n----- Exercice de programmation objet - classes \"Account\" & \"Customer\" -----");
 
 		// Objects "Account" Class
-		Account account1 = new Account("FR7630001007941234567890185", 5000, -500);
-		Account account2 = new Account("FR7630001007941234567890185", 1000, 0 );
-		Account account3 = new Account("FR7630001007941234567890185", 0, 0);
-		Account account4 = new Account("FR7630001007941234567890185", 400, -200);
+		Account account1 = new Account("FR7612548029981234567890161", 5000, -500);
+		Account account2 = new Account("FR7630004000031234567890143", 1000, 0 );
+		Account account3 = new Account("FR7630002032531234567890168", 0, 0);
+		Account account4 = new Account("FR7630056009271234567890182", 400, -200);
 		Account account5 = new Account("FR7630001007941234567890185", 10000, 2000);
 
 		//TO STRING() Accounts
@@ -84,7 +84,7 @@ class AccountMain
 		System.out.println("Balance account 1: " + account1.getBalance());
 		System.out.println("Balance account 2: " + account2.getBalance());
 
-		//IBAN COORECT ?
+		//IBAN COORECT ? // https://www.iban.fr/exemple.html
 		System.out.println("\n.... TEST correct IBAN ?");
 		boolean isCorrectIban = Account.checkIban("FR7630001007941234567890185");
 		System.out.println("FR7630001007941234567890185 : It's a " + isCorrectIban + " IBAN");
